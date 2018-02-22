@@ -38,6 +38,7 @@ const SendButton = styled.button`
     font-weight: bold;
     border: none;
     cursor: pointer;
+    background: transparent;
 
     > svg {
         position: absolute;
