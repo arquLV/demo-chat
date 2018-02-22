@@ -12,6 +12,11 @@ const ChatContainer = styled.div`
     position: absolute;
     width: 60%;
     height: 80%;
+    max-width: 1000px;
+    @media (max-width: 768px) {
+        width: 95%;
+    }
+
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
