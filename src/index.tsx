@@ -4,7 +4,6 @@ import { Provider } from 'react-redux'
 import { ThemeProvider } from 'styled-components'
 
 import { store } from './store'
-import registerServiceWorker from './registerServiceWorker'
 
 import './styles/global'
 import ChatTheme from './styles/theme'
@@ -20,4 +19,3 @@ ReactDOM.render(
     ,
     document.getElementById('root') as HTMLElement
 )
-registerServiceWorker()
